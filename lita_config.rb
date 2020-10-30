@@ -20,7 +20,7 @@ Lita.configure do |config|
   # heroku use a RACK_ENV of 'production' by default.
   if ENV['RACK_ENV'] == 'production'
     config.robot.adapter = :slack
-    config.redis[:url] = ENV.fetch('REDIS_URL')
+    config.redis[:url] = "redis://h:p324e8dbe487b9650e8c3943cb692063d089ddd0e16879ac17f0ca9e1691b5175@ec2-3-210-254-187.compute-1.amazonaws.com:8359"
   else
     config.robot.adapter = :shell
   end
