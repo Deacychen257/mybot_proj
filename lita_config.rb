@@ -16,8 +16,8 @@ Lita.configure do |config|
   # config.robot.admins = ["1", "2"]
 
   # The adapter you want to connect with. Make sure you've added the
-  # appropriate gem to the Gemfile.
-  # heroku use a RACK_ENV of 'production' by default
+  # appropriate gem to the Gemfile
+  # heroku use a RACK_ENV of 'production' by default.
   if ENV['RACK_ENV'] == 'production'
     config.robot.adapter = :slack
     config.redis[:url] = ENV.fetch('REDIS_URL')
