@@ -26,7 +26,7 @@ Lita.configure do |config|
   end
   # slack adapter demands a value even in dev when we aren't using it...
   config.robot.adapter = :slack
-  config.adapters.slack.token = "xoxb-1462042692021-1450434950167-LUZ1zat9w59jdPcRAfEHT2do"
+  config.adapters.slack.token = "xoxb-1462042692021-1450434950167-L9laonfljr5tazxCfFhVQNO9"
 
   ## Example: Set options for the chosen adapter.
   # config.adapter.username = "myname"
