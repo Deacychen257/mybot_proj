@@ -1,6 +1,6 @@
 # mybot_proj
 部署在heroku上的lita应用，用于多人在slack聊天室与lita机器人进行聊天交互
-## 1. 项目说明（github地址：https://github.com/Deacychen257/mybot，master分支）
+## 1. 项目说明（github地址：https://github.com/Deacychen257/mybot_proj/tree/master，master分支）
 ### 1.1 环境要求
 1. Linux环境（unbutun16.04测试成功）
 2. ruby == 2.5.8
